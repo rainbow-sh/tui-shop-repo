@@ -12,6 +12,7 @@
         "gbwwbg"
     ],
 
+    "dependencies": ["python3", "python3-pip"],
     "actions": {
         "install": [
             "chmod +x install.sh",

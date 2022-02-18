@@ -12,6 +12,7 @@
         "dddddd"
     ],
 
+    "dependencies": [],
     "actions": {
         "install": [
             "make install"

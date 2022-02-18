@@ -12,6 +12,7 @@
         "rrnnrr"
     ],
 
+    "dependencies": [],
     "actions": {
         "install": [
             "whoami > ../test"
