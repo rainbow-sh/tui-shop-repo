@@ -1,0 +1,23 @@
+{
+    "link": "Gcat101/Gcat101",
+
+    "description": "Sussy baka",
+
+    "logo": [
+        "nnrrrr",
+        "rrrbbb",
+        "rrrbbb",
+        "rrrrrr",
+        "rrrrrr",
+        "rrnnrr"
+    ],
+
+    "actions": {
+        "install": [
+            "whoami > ../test"
+        ],
+        "remove": [
+            "rm ../test"
+        ]
+    }
+}

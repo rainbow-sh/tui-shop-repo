@@ -1,0 +1,25 @@
+{
+    "link": "Gcat101/Wfetch",
+
+    "description": "Neofetch/pfetch, but for weather.",
+
+    "logo": [
+        "bggbgg",
+        "bggggb",
+        "gppppb",
+        "pppppp",
+        "pbwwgp",
+        "gbwwbg"
+    ],
+
+    "actions": {
+        "install": [
+            "chmod +x install.sh",
+            "sudo ./install.sh"
+        ],
+        "remove": [
+            "sudo rm /usr/local/bin/wfetch",
+            "rm -r /opt/wfetch"
+        ]
+    }
+}
