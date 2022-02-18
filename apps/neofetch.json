@@ -1,0 +1,23 @@
+{
+    "repo": "dylanaraps/neofetch",
+
+    "description": "A command-line system information tool written in bash 3.2+",
+
+    "logo": [
+        "nnrrrr",
+        "rrrbbb",
+        "rrrbbb",
+        "rrrrrr",
+        "rrrrrr",
+        "rrnnrr"
+    ],
+
+    "actions": {
+        "install": [
+            "make install"
+        ],
+        "remove": [
+            "make uninstall"
+        ]
+    }
+}
