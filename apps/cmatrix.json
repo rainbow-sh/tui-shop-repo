@@ -12,7 +12,7 @@
         "ldddld"
     ],
 
-    "dependencies": ["make"],
+    "dependencies": ["make", "gcc"],
     "actions": {
         "install": [
             "autoreconf -i",

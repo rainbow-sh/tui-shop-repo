@@ -12,7 +12,7 @@
         "llnnrr"
     ],
 
-    "dependencies": ["make"],
+    "dependencies": ["make", "gcc"],
     "actions": {
         "install": [
             "./autogen.sh",
