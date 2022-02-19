@@ -15,10 +15,11 @@
     "dependencies": ["make"],
     "actions": {
         "install": [
+            "./configure",
             "make install"
         ],
         "remove": [
-            "sudo m /usr/local/bin/htop"
+            "sudo rm /usr/local/bin/htop"
         ]
     }
 }
