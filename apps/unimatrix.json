@@ -1,0 +1,25 @@
+{
+    "repo": "will8211/unimatrix",
+
+    "description": "Python script to simulate the display from 'The Matrix' in terminal. Based on CMatrix.",
+
+    "logo": [
+        "lddldl",
+        "lddddl",
+        "ddlddl",
+        "ddlddd",
+        "ddddld",
+        "ldddld"
+    ],
+
+    "dependencies": ["python3"],
+    "actions": {
+        "install": [
+            "sudo mv ./unimatrix.py /usr/local/bin/unimatrix",
+            "sudo chmod a+rx /usr/local/bin/unimatrix"
+        ],
+        "remove": [
+            "sudo rm /usr/local/bin/unimatrix"
+        ]
+    }
+}
