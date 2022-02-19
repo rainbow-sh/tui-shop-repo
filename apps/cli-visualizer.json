@@ -18,7 +18,7 @@
             "./install.sh"
         ],
         "remove": [
-            "make uninstall"
+            "sudo rm /usr/local/bin/vis"
         ]
     }
 }
