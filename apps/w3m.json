@@ -12,7 +12,7 @@
         "ndndnn"
     ],
 
-    "dependencies": ["make", "gcc"],
+    "dependencies": ["make", "gcc", "libgc-dev"],
     "actions": {
         "install": [
             "./configure",
