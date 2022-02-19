@@ -4,20 +4,23 @@
     "description": "Debian's w3m: WWW browsable pager",
 
     "logo": [
-        "nddddn",
-        "dnddnd",
-        "dddddd",
-        "dddddd",
-        "dnddnd",
-        "nddddn"
+        "dndndn",
+        "ndndnn",
+        "ndndnd",
+        "nndndn",
+        "dndndn",
+        "ndndnn"
     ],
 
-    "dependencies": ["make"],
+    "dependencies": ["make", "gcc"],
     "actions": {
         "install": [
+            "./configure",
+            "make",
             "make install"
         ],
         "remove": [
+            "./configure",
             "make uninstall"
         ]
     }
