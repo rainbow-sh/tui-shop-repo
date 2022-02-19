@@ -15,7 +15,7 @@
     "dependencies": [],
     "actions": {
         "install": [
-            "sudo mv ./microfetch /usr/local/bin/microfetch",
+            "sudo mv ./microfetch.sh /usr/local/bin/microfetch",
             "sudo chmod +x /usr/local/bin/microfetch"
         ],
         "remove": [
