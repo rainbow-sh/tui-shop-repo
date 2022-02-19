@@ -1,0 +1,24 @@
+{
+    "repo": "pystardust/ani-cli",
+
+    "description": "A cli tool to browse and play anime",
+
+    "logo": [
+        "wnwwnw",
+        "nwrrwn",
+        "wwrwww",
+        "wwrrww",
+        "nwrrwn",
+        "wnwwnw"
+    ],
+
+    "dependencies": ["grep", "sed", "curl", "openssl", "mpv", "aria2"],
+    "actions": {
+        "install": [
+            "sudo mv ani-cli /usr/local/bin/ani-cli"
+        ],
+        "remove": [
+            "sudo rm /usr/local/bin/ani-cli"
+        ]
+    }
+}
