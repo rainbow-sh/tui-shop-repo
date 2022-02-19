@@ -1,0 +1,25 @@
+{
+    "repo": "zyedidia/micro",
+
+    "description": "A modern and intuitive terminal-based text editor",
+
+    "logo": [
+        "nppppn",
+        "pdpdpp",
+        "pddddp",
+        "pdpppp",
+        "pdpppp",
+        "nppppn"
+    ],
+
+    "dependencies": ["golang", "make"],
+    "actions": {
+        "install": [
+            "make build",
+            "sudo mv micro /usr/local/bin"
+        ],
+        "remove": [
+            "sudo rm /usr/local/bin/micro"
+        ]
+    }
+}
