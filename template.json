@@ -1,0 +1,26 @@
+{
+    "repo": "Author/Repo",
+
+    "description": "Description",
+
+    "logo": [
+        "nnnnnn",
+        "nnnnnn",
+        "nnnnnn",
+        "nnnnnn",
+        "nnnnnn",
+        "nnnnnn"
+    ],
+
+    "dependencies": ["any", "dependencies"],
+    "actions": {
+        "install": [
+            "echo commands to",
+            "/install.sh"
+        ],
+        "remove": [
+            "echo commands to",
+            "/remove.sh"
+        ]
+    }
+}
