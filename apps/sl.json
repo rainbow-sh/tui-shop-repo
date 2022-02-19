@@ -1,0 +1,25 @@
+{
+    "repo": "mtoyoda/sl",
+
+    "description": "Cure your bad habit of mistyping",
+
+    "logo": [
+        "nnnnwn",
+        "nnnwnn",
+        "nwwnnn",
+        "wwwwww",
+        "wwwwww",
+        "nwwnww"
+    ],
+
+    "dependencies": ["make"],
+    "actions": {
+        "install": [
+            "make",
+            "sudo mv sl /usr/local/bin"
+        ],
+        "remove": [
+            "sudo rm /usr/local/bin/sl"
+        ]
+    }
+}
