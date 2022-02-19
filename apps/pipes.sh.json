@@ -1,0 +1,24 @@
+{
+    "repo": "pipeseroni/pipes.sh",
+
+    "description": "Animated pipes terminal screensaver",
+
+    "logo": [
+        "bbnylr",
+        "nbnylr",
+        "rbrrlr",
+        "nbbbbb",
+        "llllln",
+        "yyyynn"
+    ],
+
+    "dependencies": ["bash", "make"],
+    "actions": {
+        "install": [
+            "make install"
+        ],
+        "remove": [
+            "make uninstall"
+        ]
+    }
+}
