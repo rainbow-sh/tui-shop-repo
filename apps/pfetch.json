@@ -12,7 +12,7 @@
         "dbrlyd"
     ],
 
-    "dependencies": [],
+    "dependencies": ["make"],
     "actions": {
         "install": [
             "make install"

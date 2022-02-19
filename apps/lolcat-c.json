@@ -1,0 +1,24 @@
+{
+    "repo": "jaseg/lolcat",
+
+    "description": "High-performance implementation of lolcat",
+
+    "logo": [
+        "rylbpr",
+        "ylbpry",
+        "lbpryl",
+        "bprylb",
+        "prylbp",
+        "rylbpr"
+    ],
+
+    "dependencies": ["make"],
+    "actions": {
+        "install": [
+            "make && sudo make install"
+        ],
+        "remove": [
+            "sudo make clean"
+        ]
+    }
+}
