@@ -21,9 +21,7 @@
             "make install"
         ],
         "remove": [
-            "autoreconf -i",
-            "./configure",
-            "make clean"
+            "sudo rm /usr/local/bin/cmatrix"
         ]
     }
 }
