@@ -15,10 +15,11 @@
     "dependencies": ["make", "python3", "python-is-python3"],
     "actions": {
         "install": [
-            "make install"
+            "sudo curl -L https://yt-dl.org/downloads/latest/youtube-dl -o /usr/local/bin/youtube-dl",
+            "sudo chmod a+rx /usr/local/bin/youtube-dl"
         ],
         "remove": [
-            "sudo rm /usr/bin/youtube-dl"
+            "sudo rm /usr/local/bin/youtube-dl"
         ]
     }
 }
