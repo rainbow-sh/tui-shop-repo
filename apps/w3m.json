@@ -1,0 +1,24 @@
+{
+    "repo": "tats/w3m",
+
+    "description": "Debian's w3m: WWW browsable pager",
+
+    "logo": [
+        "nddddn",
+        "dnddnd",
+        "dddddd",
+        "dddddd",
+        "dnddnd",
+        "nddddn"
+    ],
+
+    "dependencies": ["make"],
+    "actions": {
+        "install": [
+            "make install"
+        ],
+        "remove": [
+            "make uninstall"
+        ]
+    }
+}
