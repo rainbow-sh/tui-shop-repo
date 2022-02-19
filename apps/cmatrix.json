@@ -21,6 +21,8 @@
             "make install"
         ],
         "remove": [
+            "autoreconf -i",
+            "./configure",
             "make clean"
         ]
     }
