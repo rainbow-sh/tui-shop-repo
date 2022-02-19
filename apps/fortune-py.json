@@ -1,0 +1,24 @@
+{
+    "repo": "bmc/fortune",
+
+    "description": "Python Fortune Program",
+
+    "logo": [
+        "nppppn",
+        "ppppwp",
+        "pppppp",
+        "pppppp",
+        "nppppn",
+        "yyyyyy"
+    ],
+
+    "dependencies": ["python3"],
+    "actions": {
+        "install": [
+            "python3 setup.py install"
+        ],
+        "remove": [
+            "echo commands to"
+        ]
+    }
+}
