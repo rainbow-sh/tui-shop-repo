@@ -1,0 +1,24 @@
+{
+    "repo": "schacon/cowsay",
+
+    "description": "git version of awesome cowsay projects",
+
+    "logo": [
+        "nnnnww",
+        "nnnnww",
+        "wwwwww",
+        "wwwwww",
+        "wwnwwn",
+        "wwnwwn"
+    ],
+
+    "dependencies": ["perl"],
+    "actions": {
+        "install": [
+            "sh install.sh"
+        ],
+        "remove": [
+            "sudo rm /usr/local/bin/cowsay"
+        ]
+    }
+}

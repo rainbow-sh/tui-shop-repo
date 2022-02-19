@@ -16,11 +16,11 @@
     "actions": {
         "install": [
             "echo commands to",
-            "/install.sh"
+            "./install.sh"
         ],
         "remove": [
             "echo commands to",
-            "/remove.sh"
+            "./remove.sh"
         ]
     }
 }
