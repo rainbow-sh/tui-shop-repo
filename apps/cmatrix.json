@@ -1,0 +1,27 @@
+{
+    "repo": "abishekvashok/cmatrix",
+
+    "description": "Terminal based 'The Matrix' like implementation",
+
+    "logo": [
+        "lddldl",
+        "lddddl",
+        "ddlddl",
+        "ddlddd",
+        "ddddld",
+        "ldddld"
+    ],
+
+    "dependencies": ["make"],
+    "actions": {
+        "install": [
+            "autoreconf -i",
+            "./configure",
+            "make",
+            "make install"
+        ],
+        "remove": [
+            "make clean"
+        ]
+    }
+}
