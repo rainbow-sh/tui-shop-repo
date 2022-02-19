@@ -15,7 +15,7 @@
     "dependencies": ["perl"],
     "actions": {
         "install": [
-            "sh install.sh"
+            "sh install.sh /usr/local"
         ],
         "remove": [
             "sudo rm /usr/local/bin/cowsay"
