@@ -1,0 +1,25 @@
+{
+    "repo": "Gcat101/microfetch",
+
+    "description": "No bloat, just info.",
+
+    "logo": [
+        "rddrrr",
+        "lddlll",
+        "yddyyy",
+        "bddbbb",
+        "pddppp",
+        "wddwww"
+    ],
+
+    "dependencies": [],
+    "actions": {
+        "install": [
+            "sudo mv ./microfetch /usr/local/bin/microfetch",
+            "sudo chmod +x /usr/local/bin/microfetch"
+        ],
+        "remove": [
+            "sudo rm /usr/local/bin/microfetch"
+        ]
+    }
+}

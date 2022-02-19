@@ -1,0 +1,24 @@
+{
+    "repo": "dylanaraps/pfetch",
+
+    "description": "A pretty system information tool written in POSIX sh.",
+
+    "logo": [
+        "dddddd",
+        "dydwwd",
+        "dddddd",
+        "dydwwd",
+        "dddddd",
+        "dbrlyd"
+    ],
+
+    "dependencies": [],
+    "actions": {
+        "install": [
+            "make install"
+        ],
+        "remove": [
+            "make uninstall"
+        ]
+    }
+}
