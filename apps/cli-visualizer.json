@@ -1,0 +1,24 @@
+{
+    "repo": "dpayne/cli-visualizer",
+
+    "description": "CLI based audio visualizer",
+
+    "logo": [
+        "dddpdd",
+        "ddpbdd",
+        "ddbbdd",
+        "dpbbpd",
+        "pbbbbp",
+        "bbbbbb"
+    ],
+
+    "dependencies": ["gcc", "g++", "cmake", "make"],
+    "actions": {
+        "install": [
+            "/install.sh"
+        ],
+        "remove": [
+            "make uninstall"
+        ]
+    }
+}
