@@ -15,7 +15,9 @@
     "dependencies": ["make"],
     "actions": {
         "install": [
+            "./autogen.sh",
             "./configure",
+            "make",
             "make install"
         ],
         "remove": [
