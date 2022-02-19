@@ -1,0 +1,24 @@
+{
+    "repo": "htop-dev/htop",
+
+    "description": "an interactive process viewer",
+
+    "logo": [
+        "llnnlr",
+        "llnnlr",
+        "lllllr",
+        "llllrr",
+        "llnnrr",
+        "llnnrr"
+    ],
+
+    "dependencies": ["make"],
+    "actions": {
+        "install": [
+            "make install"
+        ],
+        "remove": [
+            "sudo m /usr/local/bin/htop"
+        ]
+    }
+}
