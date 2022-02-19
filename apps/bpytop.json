@@ -12,7 +12,7 @@
         "yynnbn"
     ],
 
-    "dependencies": ["python3", "python3-pip"],
+    "dependencies": ["python3", "python3-pip", "make"],
     "actions": {
         "install": [
             "python3 -m pip install psutil",
