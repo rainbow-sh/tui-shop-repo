@@ -15,7 +15,7 @@
     "dependencies": ["gcc", "g++", "cmake", "make"],
     "actions": {
         "install": [
-            "/install.sh"
+            "./install.sh"
         ],
         "remove": [
             "make uninstall"
