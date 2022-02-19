@@ -1,0 +1,26 @@
+{
+    "repo": "binhtran92/EmptyRepository",
+
+    "description": "Enable color and a little pacman in pacman package manager.",
+
+    "logo": [
+        "nyyyyn",
+        "yyyyyy",
+        "yyyyyn",
+        "yyyyyn",
+        "yyyyyy",
+        "nyyyyn"
+    ],
+
+    "dependencies": ["sed"],
+    "actions": {
+        "install": [
+            "sudo echo Color >> /etc/pacman.conf",
+            "sudo echo ILoveCandy >> /etc/pacman.conf"
+        ],
+        "remove": [
+            "sudo sed '/Color/d' /etc/pacman.conf > /etc/pacman.conf",
+            "sudo sed '/ILoveCandy/d' /etc/pacman.conf > /etc/pacman.conf"
+        ]
+    }
+}
