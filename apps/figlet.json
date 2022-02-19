@@ -18,7 +18,7 @@
             "make install"
         ],
         "remove": [
-            "make clean"
+            "sudo rm /usr/local/bin/figlet"
         ]
     }
 }
