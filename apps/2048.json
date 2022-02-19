@@ -1,0 +1,25 @@
+{
+    "repo": "tiehuis/2048-cli",
+
+    "description": "The game 2048 for your Linux terminal",
+
+    "logo": [
+        "yynppd",
+        "yynppd",
+        "ggddyy",
+        "ggddyy",
+        "ddddbb",
+        "ddddbb"
+    ],
+
+    "dependencies": ["make"],
+    "actions": {
+        "install": [
+            "make",
+            "sudo mv ./2048 /usr/local/bin/2048"
+        ],
+        "remove": [
+            "sudo rm /usr/local/bin/2048"
+        ]
+    }
+}
