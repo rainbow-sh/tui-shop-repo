@@ -1,0 +1,25 @@
+{
+    "repo": "Rigellute/spotify-tui",
+
+    "description": "Spotify for the terminal written in Rust",
+
+    "logo": [
+        "nlllln",
+        "wwwwww",
+        "llllll",
+        "lwwwwl",
+        "llllll",
+        "nlwwln"
+    ],
+
+    "dependencies": ["cargo", "openssl", "pkg-config"],
+    "actions": {
+        "install": [
+            "cargo install spotify-tui",
+            "printf '\\033[31;1mWARNING: This app requires configuration, go to https://github.com/Rigellute/spotify-tui for more info.\n'"
+        ],
+        "remove": [
+            "cargo uninstall spotify-tui"
+        ]
+    }
+}
