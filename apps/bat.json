@@ -4,12 +4,12 @@
     "description": "A cat(1) clone with wings.",
 
     "logo": [
-        "nnnnnn",
-        "nnnnnn",
-        "nnnnnn",
-        "nnnnnn",
-        "nnnnnn",
-        "nnnnnn"
+        "gpggpg",
+        "pggggp",
+        "pgppgp",
+        "pgppgp",
+        "gppppg",
+        "ggppgg"
     ],
 
     "dependencies": ["cargo"],
