@@ -15,7 +15,7 @@
     "dependencies": ["curl", "bash"],
     "actions": {
         "install": [
-            "./install-standalone.sh"
+            "bash ./install-standalone.sh"
         ],
         "remove": [
             "sudo rm /usr/local/bin/heroku"
