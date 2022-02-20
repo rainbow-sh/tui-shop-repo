@@ -15,10 +15,11 @@
     "dependencies": ["golang"],
     "actions": {
         "install": [
-            "make install"
+            "make",
+            "sudo mv ./bin/* /usr/bin"
         ],
         "remove": [
-            "./uninstall"
+            "sudo rm /usr/bin/fzf*"
         ]
     }
 }
