@@ -1,0 +1,24 @@
+{
+    "repo": "paulkaefer/cowsay-files",
+
+    "description": "A collection of additional/alternative cowsay files.",
+
+    "logo": [
+        "nnnnpr",
+        "nnnnpr",
+        "rygbpr",
+        "rygbpr",
+        "rynbpn",
+        "rynbpn"
+    ],
+
+    "dependencies": ["cowsay"],
+    "actions": {
+        "install": [
+            "make install"
+        ],
+        "remove": [
+            "make uninstall"
+        ]
+    }
+}
