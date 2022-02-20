@@ -1,5 +1,5 @@
-Hello there!
-Welcome to TUI-SHOP!
-I'm the main maintainer of this tool and also your news writer!
-I hope you enjoy my shop and stay tuned for more news!
-Bye for now!!!!!11
+Hi again!
+I added a few apps and will continue doing that in the future.
+If you want me to add an app please submit an issue over on github.
+Happy shopping!
+-Gcat101
