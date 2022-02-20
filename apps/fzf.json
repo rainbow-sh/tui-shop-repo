@@ -15,8 +15,7 @@
     "dependencies": ["golang", "make"],
     "actions": {
         "install": [
-            "make",
-            "make install",
+            "./install --no-key-bindings --completion --no-update-rc",
             "sudo mv ./bin/* /usr/bin"
         ],
         "remove": [
