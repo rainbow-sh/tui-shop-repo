@@ -1,0 +1,24 @@
+{
+    "repo": "binhtran92/EmptyRepository",
+
+    "description": "print a random, hopefully interesting, adage",
+
+    "logo": [
+        "nppppn",
+        "ppppwp",
+        "pppppp",
+        "pppppp",
+        "nppppn",
+        "yyyyyy"
+    ],
+
+    "dependencies": ["fortune"],
+    "actions": {
+        "install": [
+
+        ],
+        "remove": [
+            
+        ]
+    }
+}
