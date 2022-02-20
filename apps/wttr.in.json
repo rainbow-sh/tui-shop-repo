@@ -1,0 +1,25 @@
+{
+    "repo": "chubin/wttr.in",
+
+    "description": "The right way to check the weather",
+
+    "logo": [
+        "bbbbbb",
+        "bbbyyb",
+        "bbwwyb",
+        "bwwwwb",
+        "bbwwbb",
+        "bbbbbb"
+    ],
+
+    "dependencies": ["curl"],
+    "actions": {
+        "install": [
+            "sudo printf '#!/bin/bash\n\n[[ $1 == '--help' ]] && echo 'Usage: wttr.in (version number[default 1])' && exit\n[[ -z $1 ]] && V='1' || V=$1\ncurl v$(echo $V).wttr.in' > /usr/local/bin/wttr.in",
+            "chmod +x /usr/local/bin/wttr.in"
+        ],
+        "remove": [
+            "sudo rm /usr/local/bin/wttr.in"
+        ]
+    }
+}
