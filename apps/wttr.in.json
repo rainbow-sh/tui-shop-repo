@@ -12,7 +12,7 @@
         "bbbbbb"
     ],
 
-    "dependencies": ["curl"],
+    "dependencies": ["curl", "bash"],
     "actions": {
         "install": [
             "sudo printf '#!/bin/bash\n\n[[ $1 == \"--help\" ]] && echo \"Usage: wttr.in (version number[default 1])\" && exit\n[[ -z $1 ]] && V=\"1\" || V=$1\ncurl v$(echo $V).wttr.in' > /usr/local/bin/wttr.in",
