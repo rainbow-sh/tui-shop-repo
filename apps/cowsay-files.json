@@ -15,7 +15,7 @@
     "dependencies": ["cowsay"],
     "actions": {
         "install": [
-            "make install"
+            "make install prefix=/usr/share/cowsay/cows"
         ],
         "remove": [
             "make uninstall"
