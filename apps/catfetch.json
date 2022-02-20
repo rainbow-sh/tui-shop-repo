@@ -1,0 +1,24 @@
+{
+    "repo": "JhonnyRice/cat-fetch",
+
+    "description": "Cute fetch started as a C program, now more complex and just better",
+
+    "logo": [
+        "dnnnnd",
+        "ddnndd",
+        "dddddd",
+        "dwwwwd",
+        "dwwwwd",
+        "dddddd"
+    ],
+
+    "dependencies": ["make"],
+    "actions": {
+        "install": [
+            "make install"
+        ],
+        "remove": [
+            "make uninstall"
+        ]
+    }
+}
