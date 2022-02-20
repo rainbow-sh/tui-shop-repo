@@ -1,0 +1,25 @@
+{
+    "repo": "sachaos/go-life",
+
+    "description": "Terminal based Conway's Game of Life.",
+
+    "logo": [
+        "wwwwwd",
+        "wwdwww",
+        "dwdwww",
+        "wddwww",
+        "wwwwdd",
+        "ddwwdd"
+    ],
+
+    "dependencies": ["golang", "make"],
+    "actions": {
+        "install": [
+            "make install"
+        ],
+        "remove": [
+            "echo commands to",
+            "./remove.sh"
+        ]
+    }
+}
