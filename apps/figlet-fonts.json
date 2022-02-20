@@ -1,0 +1,25 @@
+{
+    "repo": "xero/figlet-fonts",
+
+    "description": "xero's collection of figlet / toilet ascii art fonts",
+
+    "logo": [
+        "nnnnnn",
+        "nygbpn",
+        "nygnnn",
+        "nygbpn",
+        "nygnnn",
+        "nygnnn"
+    ],
+
+    "dependencies": ["figlet"],
+    "actions": {
+        "install": [
+            "sudo mkdir /usr/share/figlet/fonts",
+            "sudo mv ./* /usr/share/figlet/fonts"
+        ],
+        "remove": [
+            "sudo rm -r /usr/share/figlet/fonts"
+        ]
+    }
+}
