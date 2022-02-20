@@ -15,11 +15,11 @@
     "dependencies": ["cargo", "openssl", "pkg-config"],
     "actions": {
         "install": [
-            "cargo install spotify-tui",
-            "printf '\\033[31;1mWARNING: This app requires configuration, go to https://github.com/Rigellute/spotify-tui for more info.\n'"
+            "cargo build",
+            "sudo mv ./target/debug/spt /usr/local/bin"
         ],
         "remove": [
-            "cargo uninstall spotify-tui"
+            "sudo rm /usr/local/bin/spt"
         ]
     }
 }
