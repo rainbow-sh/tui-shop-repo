@@ -1,0 +1,25 @@
+{
+    "repo": "0xCUB3/nofetch",
+
+    "description": "The fastest anti-fetch script on the planet!",
+
+    "logo": [
+        "nrrrrn",
+        "rrnnnr",
+        "rnrnnr",
+        "rnnrnr",
+        "rnnnrr",
+        "nrrrrn"
+    ],
+
+    "dependencies": [],
+    "actions": {
+        "install": [
+            "sudo mv nofetch.sh /usr/local/bin/nofetch",
+            "chmod +x /usr/local/bin/nofetch"
+        ],
+        "remove": [
+            "sudo rm /usr/local/bin/nofetch"
+        ]
+    }
+}
