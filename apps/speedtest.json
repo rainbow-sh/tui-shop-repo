@@ -1,0 +1,24 @@
+{
+    "repo": "sivel/speedtest-cli",
+
+    "description": "Command line interface for testing internet bandwidth",
+
+    "logo": [
+        "nwwwwn",
+        "wnnnnw",
+        "wnnwnw",
+        "wnwnnw",
+        "wnnnnw",
+        "nwnnwn"
+    ],
+
+    "dependencies": ["python3"],
+    "actions": {
+        "install": [
+            "python3 setup.py install"
+        ],
+        "remove": [
+            "sudo rm /usr/local/bin/speedtest"
+        ]
+    }
+}
