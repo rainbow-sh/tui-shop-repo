@@ -15,7 +15,8 @@
     "dependencies": ["cowsay"],
     "actions": {
         "install": [
-            "make install prefix=/usr/share/cowsay/cows"
+            "make install",
+            "echo \"export COWPATH='/usr/local/share/cowsay-files/cows/:/usr/share/cowsay/cows'\" >> ~/.bashrc"
         ],
         "remove": [
             "make uninstall"
