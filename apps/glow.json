@@ -1,0 +1,25 @@
+{
+    "repo": "charmbracelet/glow",
+
+    "description": "Render markdown on the CLI, with pizzazz!",
+
+    "logo": [
+        "npppwn",
+        "npnwww",
+        "npnnwn",
+        "nwnppn",
+        "wwwnpn",
+        "nwpppn"
+    ],
+
+    "dependencies": ["golang"],
+    "actions": {
+        "install": [
+            "go build",
+            "sudo mv ./glow /usr/local/bin"
+        ],
+        "remove": [
+            "sudo rm /usr/local/bin/glow"
+        ]
+    }
+}
