@@ -12,10 +12,11 @@
         "rrgggg"
     ],
 
-    "dependencies": ["golang"],
+    "dependencies": ["golang", "make"],
     "actions": {
         "install": [
             "make",
+            "make install",
             "sudo mv ./bin/* /usr/bin"
         ],
         "remove": [
