@@ -8,8 +8,8 @@
         "pwpwwp",
         "pwpppp",
         "pwwwwp",
-        "wpppwp",
-        "wwppwp"
+        "ppppwp",
+        "pwppwp"
     ],
 
     "dependencies": ["curl", "bash"],
