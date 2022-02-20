@@ -15,7 +15,7 @@
     "dependencies": ["python3", "python-is-python3"],
     "actions": {
         "install": [
-            "sudo mv ./speedtest.py /usr/local/bin"
+            "sudo mv ./speedtest.py /usr/local/bin/speedtest"
         ],
         "remove": [
             "sudo rm /usr/local/bin/speedtest"
