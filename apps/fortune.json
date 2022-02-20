@@ -12,13 +12,13 @@
         "yyyyyy"
     ],
 
-    "dependencies": ["fortune"],
+    "dependencies": ["fortune-mod"],
     "actions": {
         "install": [
 
         ],
         "remove": [
-            
+            "sudo rm /usr/games/fortune"
         ]
     }
 }
