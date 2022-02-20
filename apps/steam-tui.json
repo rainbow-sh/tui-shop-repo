@@ -1,0 +1,25 @@
+{
+    "repo": "dmadisetti/steam-tui",
+
+    "description": "Rust TUI client for steamcmd",
+
+    "logo": [
+        "nddddn",
+        "dddwwd",
+        "wddwwd",
+        "wwwwbb",
+        "bwwbbb",
+        "nbbbbn"
+    ],
+
+    "dependencies": ["cargo", "steamcmd"],
+    "actions": {
+        "install": [
+            "cargo build --release",
+            "sudo mv ./target/release/steam-tui /usr/local/bin"
+        ],
+        "remove": [
+            "sudo rm /usr/local/bin/steam-tui"
+        ]
+    }
+}
