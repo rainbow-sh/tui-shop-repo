@@ -1,0 +1,26 @@
+{
+    "repo": "fish-shell/fish-shell",
+
+    "description": "The user-friendly command line shell.",
+
+    "logo": [
+        "nnnnyn",
+        "rnnyyy",
+        "nryyyb",
+        "nryyyy",
+        "rnnyyy",
+        "nnnnyn"
+    ],
+
+    "dependencies": ["cmake", "make"],
+    "actions": {
+        "install": [
+            "cmake .",
+            "make",
+            "sudo make install"
+        ],
+        "remove": [
+            "sudo rm /usr/local/bin/fish"
+        ]
+    }
+}
