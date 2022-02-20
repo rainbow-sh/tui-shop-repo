@@ -1,15 +1,15 @@
 {
     "repo": "xero/figlet-fonts",
 
-    "description": "xero's collection of figlet / toilet ascii art fonts",
+    "description": "xero's collection of figlet ascii art fonts",
 
     "logo": [
         "nnnnnn",
-        "nygbpn",
-        "nygnnn",
-        "nygbpn",
-        "nygnnn",
-        "nygnnn"
+        "nrylbn",
+        "nrynnn",
+        "nrylbn",
+        "nrynnn",
+        "nrynnn"
     ],
 
     "dependencies": ["figlet"],
