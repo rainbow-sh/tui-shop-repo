@@ -1,0 +1,25 @@
+{
+    "repo": "sharkdp/bat",
+
+    "description": "A cat(1) clone with wings.",
+
+    "logo": [
+        "nnnnnn",
+        "nnnnnn",
+        "nnnnnn",
+        "nnnnnn",
+        "nnnnnn",
+        "nnnnnn"
+    ],
+
+    "dependencies": ["cargo"],
+    "actions": {
+        "install": [
+            "cargo build",
+            "sudo mv ./target/debug/bat /usr/bin"
+        ],
+        "remove": [
+            "sudo rm /usr/bin/bat"
+        ]
+    }
+}
