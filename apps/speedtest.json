@@ -15,10 +15,11 @@
     "dependencies": ["python3"],
     "actions": {
         "install": [
-            "python3 setup.py install"
+            "cp . /usr/local/lib/speedtest",
+            "python3 /usr/local/lib/speedtest/setup.py install"
         ],
         "remove": [
-            "sudo rm /usr/local/bin/speedtest"
+            "sudo rm -r /usr/local/bin/speedtest /usr/local/lib/speedtest"
         ]
     }
 }
