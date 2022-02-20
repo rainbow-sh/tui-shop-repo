@@ -1,0 +1,24 @@
+{
+    "repo": "junegunn/fzf",
+
+    "description": "A command-line fuzzy finder",
+
+    "logo": [
+        "rrgggg",
+        "ggrrgg",
+        "ggggrr",
+        "ggggrr",
+        "ggrrgg",
+        "rrgggg"
+    ],
+
+    "dependencies": ["golang"],
+    "actions": {
+        "install": [
+            "./install"
+        ],
+        "remove": [
+            "./uninstall"
+        ]
+    }
+}
