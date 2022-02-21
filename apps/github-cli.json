@@ -1,0 +1,24 @@
+{
+    "repo": "cli/cli",
+
+    "description": "GitHub’s official command line tool",
+
+    "logo": [
+        "nbbbbn",
+        "bwwwwb",
+        "bwwwwb",
+        "bbwwbb",
+        "bwwwbb",
+        "nbnnbn"
+    ],
+
+    "dependencies": ["golang", "make"],
+    "actions": {
+        "install": [
+            "make install"
+        ],
+        "remove": [
+            "make uninstall"
+        ]
+    }
+}
