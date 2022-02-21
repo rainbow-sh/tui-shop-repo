@@ -18,7 +18,7 @@
             "sudo pip install ."
         ],
         "remove": [
-            "sudo pip uninstall trash-cli"
+            "sudo pip uninstall -y trash-cli"
         ]
     }
 }
