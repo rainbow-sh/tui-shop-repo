@@ -4,12 +4,12 @@
     "description": "GitHub’s official command line tool",
 
     "logo": [
-        "nbbbbn",
-        "bwwwwb",
-        "bwwwwb",
-        "bbwwbb",
-        "bwwwbb",
-        "nbnnbn"
+        "nddddn",
+        "dwwwwd",
+        "dwwwwd",
+        "ddwwdd",
+        "dwwwdd",
+        "ndnndn"
     ],
 
     "dependencies": ["golang", "make"],
