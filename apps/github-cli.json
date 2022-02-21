@@ -9,7 +9,7 @@
         "dwwwwd",
         "ddwwdd",
         "dwwwdd",
-        "ndnndn"
+        "ndwwdn"
     ],
 
     "dependencies": ["golang", "make"],
