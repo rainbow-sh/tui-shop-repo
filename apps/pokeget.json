@@ -1,0 +1,26 @@
+{
+    "repo": "talwat/pokeget",
+
+    "description": "Pokeget is a bash script you can use to display cool sprites of pokemon in your terminal.",
+
+    "logo": [
+        "nrrrrn",
+        "rddddr",
+        "ddwwdd",
+        "ddwwdd",
+        "wddddw",
+        "nwwwwn"
+    ],
+
+    "dependencies": ["bash", "unzip"],
+    "actions": {
+        "install": [
+            "sudo mv ./pokeget /usr/bin",
+            "chmod +x /usr/bin/pokeget"
+        ],
+        "remove": [
+            "rm -rf ~/.config/pokeget",
+            "sudo rm -rf /usr/bin/pokeget"
+        ]
+    }
+}
