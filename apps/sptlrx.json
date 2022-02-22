@@ -1,0 +1,26 @@
+{
+    "repo": "raitonoberu/sptlrx",
+
+    "description": "Spotify lyrics in your terminal.",
+
+    "logo": [
+        "nylbpn",
+        "wwwwww",
+        "rylbpr",
+        "rwwwwr",
+        "rylbpr",
+        "nywwpn"
+    ],
+
+    "dependencies": ["golang"],
+    "actions": {
+        "install": [
+            "go get",
+            "go build -ldflags '-w -s'",
+            "sudo mv ./sptlrx /usr/local/bin"
+        ],
+        "remove": [
+            "sudo rm /usr/local/bin"
+        ]
+    }
+}
