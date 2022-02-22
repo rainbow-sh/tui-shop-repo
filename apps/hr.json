@@ -1,0 +1,24 @@
+{
+    "repo": "LuRsT/hr",
+
+    "description": "A horizontal rule for your terminal",
+
+    "logo": [
+        "dddddd",
+        "dddddd",
+        "wwwwww",
+        "wwwwww",
+        "dddddd",
+        "dddddd"
+    ],
+
+    "dependencies": ["bash", "make"],
+    "actions": {
+        "install": [
+            "sudo make install"
+        ],
+        "remove": [
+            "sudo make uninstall"
+        ]
+    }
+}
