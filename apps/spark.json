@@ -1,0 +1,24 @@
+{
+    "repo": "holman/spark",
+
+    "description": "▁▂▃▅▂▇ in your shell.",
+
+    "logo": [
+        "nnnnnn",
+        "nnnnnw",
+        "nnnwnw",
+        "nnwwnw",
+        "nwwwww",
+        "wwwwww"
+    ],
+
+    "dependencies": ["bash"],
+    "actions": {
+        "install": [
+            "sudo mv ./spark /usr/local/bin"
+        ],
+        "remove": [
+            "sudo rm /usr/local/bin/spark"
+        ]
+    }
+}
