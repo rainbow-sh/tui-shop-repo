@@ -20,7 +20,7 @@
             "sudo mv ./sptlrx /usr/local/bin"
         ],
         "remove": [
-            "sudo rm /usr/local/bin"
+            "sudo rm /usr/local/bin/sptlrx"
         ]
     }
 }
