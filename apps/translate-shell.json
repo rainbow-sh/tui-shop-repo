@@ -1,0 +1,25 @@
+{
+    "repo": "soimort/translate-shell",
+
+    "description": "Command-line translator using Google Translate & others",
+
+    "logo": [
+        "bbbbnn",
+        "bwwbww",
+        "bwbbgw",
+        "bwwbgw",
+        "bbbbgw",
+        "nnwwww"
+    ],
+
+    "dependencies": ["gawk", "bash", "curl", "openssl", "mplayer", "less", "rlwrap", "aspell"],
+    "actions": {
+        "install": [
+            "make",
+            "sudo make install"
+        ],
+        "remove": [
+            "sudo rm /usr/local/bin/trans"
+        ]
+    }
+}
