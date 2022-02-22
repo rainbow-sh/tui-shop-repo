@@ -1,0 +1,24 @@
+{
+    "repo": "KittyKatt/screenFetch",
+
+    "description": "Fetches system/theme information in terminal.",
+
+    "logo": [
+        "dddddd",
+        "dldwwd",
+        "dddddd",
+        "dwwwwd",
+        "dddddd",
+        "dddddd"
+    ],
+
+    "dependencies": ["bash"],
+    "actions": {
+        "install": [
+            "sudo mv ./screenfetch-dev /usr/local/bin/screenfetch"
+        ],
+        "remove": [
+            "sudo rm /usr/local/bin/screenfetch"
+        ]
+    }
+}
