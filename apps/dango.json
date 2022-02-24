@@ -1,0 +1,26 @@
+
+{
+    "repo": "gsobell/dango",
+
+    "description": "dango is a shell wrapper for the ASCII interface of GNU Go",
+
+    "logo": [
+        "yyyyyy",
+        "yyywwy",
+        "yyyywy",
+        "yyyyyy",
+        "ydyyyy",
+        "yydyyy",
+    ],
+
+    "dependencies": ["gnugo"],
+    "actions": {
+        "install":
+            "sudo mkdir /usr/local/bin/dango"
+            "sudo mv ./dango /usr/local/bin/dango"
+        ],
+        "remove": [
+            "sudo mv -riv /usr/local/bin/2048 /dev/null"
+        ]
+    }
+}
