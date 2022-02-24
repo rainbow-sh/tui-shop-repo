@@ -1,0 +1,25 @@
+{
+    "repo": "vifm/vifm-colors",
+
+    "description": "Various colorschemes for vifm file explorer.",
+
+    "logo": [
+        "wdwbdd",
+        "wyggwd",
+        "wywbpr",
+        "wyggwr",
+        "wywbwd",
+        "dwggwd"
+    ],
+
+    "dependencies": ["vifm"],
+    "actions": {
+        "install": [
+            "cp *.vifm ~/.config/vifm/colors"
+        ],
+        "remove": [
+            "rm ~/.config/vifm/colors/*",
+            "cp Default.vifm ~/.config/vifm/colors"
+        ]
+    }
+}
