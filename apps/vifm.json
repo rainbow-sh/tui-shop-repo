@@ -1,0 +1,27 @@
+{
+    "repo": "vifm/vifm",
+
+    "description": "A TUI file manager, which provides Vim-like environment for managing objects within file systems.",
+
+    "logo": [
+        "wdwbdd",
+        "wbggwd",
+        "wbwbbb",
+        "wbggwb",
+        "wbwbwd",
+        "dwggwd"
+    ],
+
+    "dependencies": ["gcc", "make"],
+    "actions": {
+        "install": [
+            "./configure",
+            "make",
+            "sudo make install"
+        ],
+        "remove": [
+            "./configure",
+            "sudo make uninstall"
+        ]
+    }
+}
