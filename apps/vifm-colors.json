@@ -15,11 +15,11 @@
     "dependencies": ["vifm"],
     "actions": {
         "install": [
-            "cp *.vifm ~/.config/vifm/colors"
+            "cp *.vifm /usr/local/etc/vifm/colors"
         ],
         "remove": [
             "rm ~/.config/vifm/colors/*",
-            "cp Default.vifm ~/.config/vifm/colors"
+            "cp Default.vifm /usr/local/etc/vifm/colors"
         ]
     }
 }
