@@ -10,18 +10,17 @@
         "yyyywy",
         "yyyyyy",
         "ydyyyy",
-        "yydyyy",
+        "yydyyy"
     ],
 
     "dependencies": ["gnugo"],
     "actions": {
-        "install":
-            "sudo mkdir /usr/local/bin/dango"
-            "sudo chmod +x dango.sh"
-            "sudo mv ./dango.sh /usr/local/bin/dango/"
+        "install": [
+            "sudo mv ./dango.sh /usr/local/bin/dango",
+            "chmod +x /usr/local/bin/dango"
         ],
         "remove": [
-            "sudo mv -riv /usr/local/bin/dango /dev/null"
+            "sudo rm /usr/local/bin/dango"
         ]
     }
 }
