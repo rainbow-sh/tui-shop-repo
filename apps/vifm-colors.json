@@ -18,7 +18,7 @@
             "cp *.vifm /usr/local/etc/vifm/colors"
         ],
         "remove": [
-            "rm ~/.config/vifm/colors/*",
+            "rm /usr/local/etc/vifm/colors/*",
             "cp Default.vifm /usr/local/etc/vifm/colors"
         ]
     }
