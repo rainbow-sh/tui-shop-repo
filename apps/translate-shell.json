@@ -12,7 +12,7 @@
         "nnwwww"
     ],
 
-    "dependencies": ["gawk", "bash", "curl", "openssl", "mplayer", "less", "rlwrap", "aspell"],
+    "dependencies": ["gawk", "bash", "curl", "openssl", "mplayer", "less", "rlwrap", "aspell", "make"],
     "actions": {
         "install": [
             "make",

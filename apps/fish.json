@@ -12,7 +12,7 @@
         "nnnnyn"
     ],
 
-    "dependencies": ["cmake", "make"],
+    "dependencies": ["cmake", "make", "gcc"],
     "actions": {
         "install": [
             "cmake .",

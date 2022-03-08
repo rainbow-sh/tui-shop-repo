@@ -12,7 +12,7 @@
         "ddddbb"
     ],
 
-    "dependencies": ["make"],
+    "dependencies": ["make", "clang"],
     "actions": {
         "install": [
             "make",

@@ -12,7 +12,7 @@
         "nwwnnn"
     ],
 
-    "dependencies": ["make"],
+    "dependencies": ["make", "gcc"],
     "actions": {
         "install": [
             "make install"

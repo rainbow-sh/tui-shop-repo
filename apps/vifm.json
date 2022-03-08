@@ -12,7 +12,7 @@
         "dwggwd"
     ],
 
-    "dependencies": ["gcc", "make", "libncursesw5-dev"],
+    "dependencies": ["make", "libncursesw5-dev", "gcc"],
     "actions": {
         "install": [
             "./configure",
