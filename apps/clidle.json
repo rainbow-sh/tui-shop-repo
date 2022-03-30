@@ -1,0 +1,25 @@
+{
+    "repo": "ajeetdsouza/clidle",
+
+    "description": "Play Wordle over SSH.",
+
+    "logo": [
+        "llllll",
+        "lwwwwl",
+        "lwllll",
+        "lwllll",
+        "lwwwwl",
+        "llllll"
+    ],
+
+    "dependencies": ["golang"],
+    "actions": {
+        "install": [
+            "go build",
+            "sudo mv ./clidle /usr/local/bin/"
+        ],
+        "remove": [
+            "sudo rm /usr/local/bin/clidle"
+        ]
+    }
+}
