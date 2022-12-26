@@ -16,7 +16,7 @@
     "dependencies": ["gnugo"],
     "actions": {
         "install": [
-            "sudo mv ./dango.sh /usr/local/bin/dango",
+            "sudo mv ./dango-legacy/dango-legacy.sh /usr/local/bin/dango",
             "chmod +x /usr/local/bin/dango"
         ],
         "remove": [
