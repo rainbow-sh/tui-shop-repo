@@ -1,0 +1,24 @@
+{
+    "repo": "Vaishnav-Sabari-Girish/arduino-cli-interactive",
+
+    "description": "An interactive way to use the arduino-cli",
+
+    "logo": [
+      "nllnll",  
+      "lnnlnn",  
+      "lnllln",  
+      "nlnlln",  
+      "nnlnnl",  
+      "nnllln"  
+    ],
+
+    "dependencies": ["homebrew", "bash",  "gum", "timer", "arduino-cli"],
+    "actions": {
+        "install": [
+            "brew install vaishnav-sabari-girish/arduino-cli-interactive/aci"            
+        ],
+        "remove": [
+            "brew uninstall aci"
+        ]
+    }
+}
